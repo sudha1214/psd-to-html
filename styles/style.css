@@ -1,0 +1,150 @@
+body {
+	margin: 50px auto;
+	width: 600px; height: 1120px;
+	border: 1px solid black;
+	font-size: 11px;
+	font-style:normal;
+}
+#container {
+	margin: 0px auto;
+	padding: 0px 19px;
+}
+#masthead {
+	margin: 1px auto;
+	height: 40px;
+	font-style: normal;
+	font-size: 13px;
+	font-family: Verdana;
+	text-align: center;
+}
+#masthead a {
+	color: #e55302;
+}
+#wrapper{
+	margin: auto;
+	width: 563px; height:990px;
+	border: 1px solid #f26722;
+	border-right: 2px solid #f26722;
+	border-bottom: 12px solid #f26722;
+}
+#logo {
+	width:563px;
+	height: 160px;
+	background: url(../images/bgImage.png);
+	background-size: 563px 160px;
+	border-bottom: 12px solid #f26722;
+	z-index: 0;
+}
+#nokid {
+	position:absolute;
+	padding-top: 15px;
+	padding-left: 20px;
+	z-index: 2;
+}
+#ssk{
+	position:absolute;
+	width:350px;
+	height:158px;
+	padding-top:0px;
+	padding-left: 130px;
+	padding-right:75px;
+	z-index: 1;
+}
+#content {
+	
+	padding: 20px 20px;
+	
+}
+
+#message{
+	float:left;
+	width: 300px;
+	font-size: 13px;
+	font-family: Arial;
+	font-weight: normal;
+	line-height: 140%;
+}
+.messagef{
+	margin:0px;
+	float:left;
+	width: 530px;
+	font-size: 13px;
+	font-family: Arial;
+	font-weight: normal;
+	line-height: 140%;
+}
+
+.messagef a {
+	color:#f26722;
+	font-weight: bold;
+}
+
+#endbutton {
+position:relative;
+	margin-top:0px;
+	width:180px;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	background-color:#f36f25;
+	padding:9px 3px;
+	border: 2px solid #ff8c4e;
+	margin-left:180px;
+	margin-right:180px;
+	text-align: center;
+}
+
+#endbutton a {
+	text-decoration: none;
+	color:white;
+}
+
+#kidsImage {
+	width:200px;
+	float:right;
+	position:absolute;
+	box-shadow: 0px 2px 5px 6px #e6e6e6;
+	padding-right:7px;
+	padding-top:8px;
+	padding-left:7px;
+	padding-bottom:13px;
+	margin-top:10px;
+	margin-left: 315px;
+}
+#kidsImage p {
+	margin-top:1px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 140%;
+}
+.button a {
+	text-decoration: none;
+	color:white;
+
+}
+.button{
+	
+	position:relative;
+	margin-top: 1px;
+	margin-left: 25px;
+	margin-right: 20px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#f36f25;
+	padding:9px 10px;
+	border: 2px solid #ff8c4e;
+	
+}
+
+#footer {
+	margin: 0 auto;
+	text-align: center;
+	font-size:13px;
+	font-family: Arial;
+	}
+
+
